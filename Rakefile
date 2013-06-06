@@ -123,7 +123,12 @@ task "console" do
   exec "irb -r./config/environment"
 end
 
+<<<<<<< HEAD
 # desc "Run the specs"
 # RSpec::Core::RakeTask.new(:spec)
+=======
+#desc "Run the specs"
+#RSpec::Core::RakeTask.new(:spec)
+>>>>>>> ebe2f21bdde03226f95403614a1880835dfab4f6
 
 task :default  => :specs
