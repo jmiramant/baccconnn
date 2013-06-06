@@ -1,0 +1,29 @@
+.container {
+  margin: 70px auto;
+  width: 600px;
+  padding: 0px 20px 20px 20px;
+}
+th {
+  text-align: left;
+}
+.error, #login_form {
+  font-family: 'Just Me Again Down Here', cursive;
+  font-size: 25px;
+  margin-left: 35%;
+}
+#login_form input {
+  margin: 14px 0px;
+  outline: none;
+}
+
+#login_form input:required:valid {
+  box-shadow: 0 0 5px #5cd053;
+  border-color: #28921f; 
+}
+
+ul {
+font-family: 'Just Me Again Down Here', cursive;
+font-size: 32px;
+list-style-type: none;
+  
+}

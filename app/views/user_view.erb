@@ -1,0 +1,7 @@
+<div> Gimmie some bacon!!</br></br>Here are your delicious URLs</div>
+<div>
+  <ul>
+    <% @baconated_urls.each do |bacon| %>
+      <li> <%= bacon.url %> - <%= bacon.baconurl %> - <%= bacon.click_counter %></li>
+    <% end %>
+</div>
